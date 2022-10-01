@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 10px 10px 1px  red;
+    margin: 30px auto;
+    border: 3px solid red;
+    border-radius: 10px;
+    width: 40%;
+    padding: 20px ;
+    background-color: rgb(170, 170, 221);
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps; /* Para Colocar las Primeras Letras en Mayuscula*/
+    box-sizing: border-box;
+    box-shadow: inset 5px  0 5px -5px black;
+}
+
+html{
+    width: 100%;    
+}
+
+body{
+    background:  url('/imagenes/monkey\ d\ luffy-de\ one-piece\ 2.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+}
+
+p a{
+    text-decoration: none;
+}
+
+
+p a:link{
+    color: blue;
+}
+
+p a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+p a:active{
+    color: black;
+}
+
+p a:visited{
+    color: cornflowerblue;
+    text-decoration: overline;
+}
+
+div.centrar_imagen{
+    width: 30%;
+    margin:60px auto;
+    border-radius: 20px;
+    border: solid black 10px;
+}
+
+div.centrar_imagen img{
+    width: 100%;
+}
